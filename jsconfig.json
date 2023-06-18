@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "ESNext",
+    "paths": {
+      "@/components/*": [
+        "components/*"
+      ],
+      "@/hoc/*": [
+        "hoc/*"
+      ],
+      "@/seo/*": [
+        "seo/*"
+      ],
+      "@/lib/*": [
+        "lib/*"
+      ],
+      "@/hook/*": [
+        "hook/*"
+      ],
+      "@/styles/*": [
+        "styles/*"
+      ],
+      "@/public/*": [
+        "public/*"
+      ],
+      "@/context/*": [
+        "context/*"
+      ],
+      "@/helper/*": [
+        "helper/*"
+      ]
+    }
+  }
+}

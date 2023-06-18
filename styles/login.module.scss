@@ -1,0 +1,27 @@
+.__login-area {
+  padding: 2rem;
+  height: auto;
+}
+
+.login {
+  max-width: 430px;
+  width: 100%;
+  padding: 35px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.text-login {
+  color: #255faa;
+  font-size: 36px;
+}
+
+.button {
+  &:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px #ffffff80, 0 0 20px #ffffff33;
+    outline-color: #ffffff00;
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+  }
+}

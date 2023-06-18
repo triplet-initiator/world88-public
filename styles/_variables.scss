@@ -1,0 +1,40 @@
+$headerHeight: 80px;
+$footerHeight: 40px;
+
+$sidebarWidthActive: 200px;
+$sidebarWidthInactive: 80px;
+$sidebarTransition: all 0.2s;
+$sidebarMobileWidthInactive: 0px;
+
+$whiteColor: #ffffff;
+$blackColor: #000000;
+
+// Main
+$backgroundColor: #0a0136;
+$headerBackgroundColor: #020014;
+$sidebarBackgroundColor: #00000020;
+$primaryColor: #ffffff;
+$secondaryColor: #292929;
+
+// Sidebar
+$sidebarSubColor: #1890ff;
+
+:export {
+  headerHeight: $headerHeight;
+  footerHeight: $footerHeight;
+
+  whiteColor: $whiteColor;
+  blackColor: $blackColor;
+
+  backgroundColor: $backgroundColor;
+  headerBackgroundColor: $headerBackgroundColor;
+  sidebarBackgroundColor: $sidebarBackgroundColor;
+
+  sidebarSubColor: $sidebarSubColor;
+  primaryColor: $primaryColor;
+  secondaryColor: $secondaryColor;
+  sidebarWidthActive: $sidebarWidthActive;
+  sidebarWidthInactive: $sidebarWidthInactive;
+  sidebarTransition: $sidebarTransition;
+  sidebarMobileWidthInactive: $sidebarMobileWidthInactive;
+}

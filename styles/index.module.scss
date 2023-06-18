@@ -1,0 +1,88 @@
+.category-card {
+  border: 2px solid #5f3275;
+  border-radius: 5px;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.2em;
+  background-image: linear-gradient(#ffffffd3, #0a0136);
+
+  &:hover {
+    border: 2px solid #ffffff;
+  }
+
+  &.active {
+    border: 2px solid #ffffff;
+  }
+}
+
+.provider-box {
+  background-color: #a7a7a723;
+  border-radius: 10px;
+  margin: 0;
+  padding: 0 0 0.8rem;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  cursor: pointer;
+  background-image: linear-gradient(#ffffffd3, #0a0136);
+
+  &:hover {
+    border: 4px solid #5f3275;
+  }
+
+  &.active {
+    border: 4px solid #5f3275;
+  }
+}
+
+.h {
+  height: 80vh;
+}
+
+.card-image-mobile {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  inset: 0px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  color: transparent;
+}
+
+.spinner {
+  width: 56px;
+  height: 56px;
+  display: grid;
+  border: 4.5px solid #0000;
+  border-radius: 50%;
+  border-color: #dbdcef #0000;
+  animation: spinner-e04l1k 1s infinite linear;
+}
+
+.spinner::before,
+.spinner::after {
+  content: '';
+  grid-area: 1/1;
+  margin: 2.2px;
+  border: inherit;
+  border-radius: 50%;
+}
+
+.spinner::before {
+  border-color: #474bff #0000;
+  animation: inherit;
+  animation-duration: 0.5s;
+  animation-direction: reverse;
+}
+
+.spinner::after {
+  margin: 8.9px;
+}
+
+@keyframes spinner-e04l1k {
+  100% {
+    transform: rotate(1turn);
+  }
+}

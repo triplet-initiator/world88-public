@@ -1,0 +1,17 @@
+.category-card {
+  border: 2px solid #5f3275;
+  border-radius: 5px;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  background-image: linear-gradient(#ffffffd3, #0a0136);
+  
+  &:hover {
+    border: 2px solid #ffffff;
+  }
+
+  &.active {
+    border: 2px solid #ffffff;
+  }
+}
