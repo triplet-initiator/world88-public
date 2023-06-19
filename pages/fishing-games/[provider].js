@@ -157,7 +157,7 @@ export default function FishingGames({}) {
                       }}
                     >
                       <section className="w-full md:h-40 h-20 relative">
-                        <img
+                        <Image
                           src={item.image}
                           className="card-image"
                           alt={idx}

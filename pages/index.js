@@ -180,7 +180,7 @@ export default function Home({ firstdata }) {
                     <section className="text-center">
                       <figure className="m-0">
                         <div className="relative text-center">
-                          <img
+                          <Image
                             src={'/images/logo/world88_720.webp'}
                             className="object-contain"
                             width={160}
@@ -221,7 +221,7 @@ export default function Home({ firstdata }) {
                   <Col md={12} xs={24}>
                     <figure>
                       <div className="relative text-center">
-                        <img
+                        <Image
                           src={'/images/jinny.png'}
                           className="object-contain"
                           width={300}
@@ -251,7 +251,7 @@ export default function Home({ firstdata }) {
                       }}
                     >
                       <section className="mt-1">
-                        <img
+                        <Image
                           src={item.path}
                           width={50}
                           height={50}
@@ -305,7 +305,7 @@ export default function Home({ firstdata }) {
                         }}
                       >
                         <section className="w-full h-40 md:h-60 lg:h-60 relative">
-                          <img
+                          <Image
                             className="card-image"
                             src={item.image}
                             alt={idx}
@@ -378,7 +378,7 @@ export default function Home({ firstdata }) {
                 <section className="text-center">
                   <figure className="m-0">
                     <div className="relative text-center">
-                      <img
+                      <Image
                         src={'/images/logo/world88_720.webp'}
                         className="object-contain"
                         width={160}
@@ -433,7 +433,7 @@ export default function Home({ firstdata }) {
                   }}
                 >
                   <section className="mt-1">
-                    <img
+                    <Image
                       src={'/images/icon/icon_cashback.png'}
                       width={50}
                       height={50}
@@ -452,7 +452,7 @@ export default function Home({ firstdata }) {
                   }}
                 >
                   <section className="mt-1">
-                    <img
+                    <Image
                       src={'/images/icon/icon_income.png'}
                       width={50}
                       height={50}
@@ -483,7 +483,7 @@ export default function Home({ firstdata }) {
                       }}
                     >
                       <section className="mt-1">
-                        <img
+                        <Image
                           src={item.path}
                           width={50}
                           height={50}
@@ -528,7 +528,7 @@ export default function Home({ firstdata }) {
                           }}
                         >
                           <section className="w-full lg:h-40 md:h-60 h-32 relative">
-                            <img
+                            <Image
                               className={`${styles['card-image-mobile']}`}
                               src={item.image}
                               alt={idx}

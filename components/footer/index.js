@@ -91,7 +91,7 @@ export default function Footer({}) {
         <Row gutter={{ xs: 8, sm: 16, md: 24 }}>
           <Col lg={12} xs={24}>
             <section className="relative text-center">
-              <img
+              <Image
                 src={'/images/logo/world88_720.webp'}
                 alt="world88.com"
                 style={{ objectFit: 'contain' }}

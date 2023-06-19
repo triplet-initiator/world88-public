@@ -41,7 +41,7 @@ export default function Login({}) {
           <div className="flex justify-center py-8">
             <div>
               <Link href="/">
-                <img
+                <Image
                   src={'/images/logo/world88_720.webp'}
                   alt="world88"
                   style={{ objectFit: 'contain' }}

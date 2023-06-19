@@ -131,7 +131,7 @@ export default function Lotto({}) {
                       }}
                     >
                       <section className="w-full h-40 md:h-60 lg:h-60 relative">
-                        <img
+                        <Image
                           src={item.image}
                           className="card-image"
                           alt={idx}

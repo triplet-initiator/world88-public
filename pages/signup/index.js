@@ -236,7 +236,7 @@ export default function SignUp({ refIdKeyGssp }) {
         <div className="flex justify-center py-8">
           <div className="relative h-52 w-52">
             <Link href="/">
-              <img
+              <Image
                 src={'/images/logo/world88_720.webp'}
                 alt="world88"
                 style={{ objectFit: 'contain' }}

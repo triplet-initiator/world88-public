@@ -116,7 +116,7 @@ export default function Footer({ footerKey }) {
       key: BAR_STATE.HOME,
       title: 'หน้าหลัก',
       icon: (
-        <img
+        <Image
           src={'/images/logo/world88_720.webp'}
           className="object-contain"
           width={32}
@@ -130,7 +130,7 @@ export default function Footer({ footerKey }) {
       key: BAR_STATE.PROMOTION,
       title: 'โปรโมชั่น',
       icon: (
-        <img
+        <Image
           src={'/images/icon/icon_promotion.png'}
           width={24}
           height={24}
@@ -167,7 +167,7 @@ export default function Footer({ footerKey }) {
       key: BAR_STATE.DW,
       title: 'ฝาก-ถอน',
       icon: (
-        <img
+        <Image
           src={'/images/icon/icon_wallet.png'}
           width={24}
           height={24}
@@ -180,7 +180,7 @@ export default function Footer({ footerKey }) {
       key: BAR_STATE.AFFILIATE,
       title: 'สร้างรายได้',
       icon: (
-        <img
+        <Image
           src={'/images/icon/icon_affiliate.png'}
           width={24}
           height={24}
@@ -211,7 +211,7 @@ export default function Footer({ footerKey }) {
               >
                 <div className={`${styles['menu-wrapper']}`}>
                   <div className={`${styles['menu-icon']}`}>
-                    <img
+                    <Image
                       src={item.icon.props.src}
                       width={item.icon.props.width}
                       height={item.icon.props.height}

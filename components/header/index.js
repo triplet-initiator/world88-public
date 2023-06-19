@@ -485,7 +485,7 @@ export default function Header({}) {
       >
         {modalHowtoState === DP_STATE.DEPOSIT ? (
           <div className="relative w-auto h-[300px] md:h-[600px]">
-            <img
+            <Image
               src={`/images/howto/deposit.jpeg`}
               className="card-image"
               alt={'วิธีทำรายการฝาก'}
@@ -496,7 +496,7 @@ export default function Header({}) {
           </div>
         ) : (
           <div className="relative w-auto h-[300px] md:h-[600px]">
-            <img
+            <Image
               src={`/images/howto/withdraw.jpeg`}
               className="card-image"
               alt={'วิธีทำรายการถอน'}
@@ -682,7 +682,7 @@ export default function Header({}) {
             <>
               {depositAccount.method === depositMethod.p2p.value && (
                 <section className="text-center">
-                  <img
+                  <Image
                     src={`/images/bank/${depositAccount.bankCode.toLowerCase()}.png`}
                     alt="world88"
                     style={{ objectFit: 'contain' }}
@@ -1010,7 +1010,7 @@ export default function Header({}) {
             <Descriptions column={1} bordered>
               <Descriptions.Item label="ชื่อผู้ใช้งาน">{session.user.username}</Descriptions.Item>
               <Descriptions.Item label="ธนาคาร" className="relative">
-                <img
+                <Image
                   src={`/images/bank/${session.user.bankMember.company.toLowerCase()}.png`}
                   alt=""
                   style={{ objectFit: 'contain' }}
@@ -1295,7 +1295,7 @@ export default function Header({}) {
                   }}
                 ></Button>
               </section>
-              <img
+              <Image
                 src={'/images/logo/world88_720.webp'}
                 alt="world88.com"
                 style={{ objectFit: 'contain' }}
@@ -1341,7 +1341,7 @@ export default function Header({}) {
                   >
                     <div className="hidden md:block">ฝาก - ถอน</div>
                     <div className="block md:hidden relative">
-                      <img
+                      <Image
                         src={'/images/icon/icon_wallet.png'}
                         width={24}
                         height={24}

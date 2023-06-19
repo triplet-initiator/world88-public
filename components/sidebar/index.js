@@ -67,7 +67,7 @@ export default function Sidebar({}) {
               <section className={styles.content}>
                 <Link href={'/slot'}>
                   <div className="flex items-center gap-x-2 __pointer">
-                    <img
+                    <Image
                       className="object-contain"
                       src={'/images/slot/pgsoft.svg'}
                       width={24}
@@ -79,7 +79,7 @@ export default function Sidebar({}) {
                 </Link>
                 <Link href={'/slot'}>
                   <div className="flex items-center gap-x-2 __pointer">
-                    <img
+                    <Image
                       className="object-contain"
                       src={'/images/slot/joker.svg'}
                       width={24}
@@ -91,7 +91,7 @@ export default function Sidebar({}) {
                 </Link>
                 <Link href={'/lotto'}>
                   <div className="flex items-center gap-x-2 __pointer">
-                    <img
+                    <Image
                       className="object-contain"
                       src={'/images/provider/huay_dragon.png'}
                       width={24}

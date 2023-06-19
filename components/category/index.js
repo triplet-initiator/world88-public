@@ -29,7 +29,7 @@ export default function Category({ activeKey }) {
                       item.key === activeKey ? styles.active : ''
                     }`}
                   >
-                    <img
+                    <Image
                       src={item.icon.props.children.props.src}
                       width={32}
                       height={32}

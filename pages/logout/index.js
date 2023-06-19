@@ -30,7 +30,7 @@ export default function Login({ data }) {
     return (
       <section id="error" className="flex flex-col justify-center items-center h-100 mb-4">
         <Link href="/">
-          <img
+          <Image
             src={'/images/logo/world88_720.webp'}
             alt="world88"
             style={{ objectFit: 'contain' }}
